@@ -11,6 +11,9 @@ class Test(unittest.TestCase):
 
   def testAllOnes(self):
     self.assertEqual(oneFirst([1, 1, 1, 1, 1, 1]), [1, 1, 1, 1, 1, 1])  
+  def testNoOnes(self):
+    self.assertEqual(oneFirst([0, 29, 10, 15, 12, 123]), [0, 29, 10, 15, 12, 123])  
+
     
 if __name__ == '__main__':
-    unittest.main()
+  unittest.main()

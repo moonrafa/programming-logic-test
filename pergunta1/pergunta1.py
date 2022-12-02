@@ -11,6 +11,8 @@ def oneFirst(lista):
   # E colocar-los no inicio da lista
   for i in range( 0, amountOfOnes):
     # se amountOfOnes = 4
-    # i = 0, 1, 2, 3 
+    # i = 0, 1, 2, 3  (adicionando sempre no inicio da lista)
     lista.insert(i, 1)
   return lista
+
+print(oneFirst([2, 1, 5, 2, 5, 2, 1, 1, 1, 7, 9, 13, 127, 21]))
