@@ -67,7 +67,7 @@ Goiaba  Limão  Abacaxi
 
 # Pesquisando o caminho até o item"
 def search(item):
-  # Como não tinha nada na questão sobre isso, possibilitei que possa ser pesquisado com palavras em capslock, lowercase ou primeira letra maiscula
+  # Como não tinha nada na questão sobre isso, possibilitei que possa ser pesquisado com palavras em uppercase, lowercase e capitalized
   item = item.capitalize()
   if(imprimirPath(root, item)):
     return' -> '.join(imprimirPath(root, item))
